@@ -55,8 +55,15 @@
 
                     <div class="form-group col-md-12" >
                         <label class="  control-label">rol</label>
+                        <select  name="rol" class="form-control" id="rol">
+                            
+                            <option value="Aministrador">Administrador</option>
+                            <option value="Recepcionista">Recepcionista</option>
+                            <option value="Cliente">Recepcionista</option>
+                            
+                        </select>
 
-                        <input type="text" name="rol" class="form-control" id="rol">
+                
 
                     </div>
 
